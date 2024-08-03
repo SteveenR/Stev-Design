@@ -1,0 +1,9 @@
+* {
+    box-sizing: border-bo;
+}
+
+.caja-2 {
+    height: 10px;
+    width: 50px;
+    background-color: cadetblue;
+}
