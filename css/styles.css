@@ -1,0 +1,282 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../images/body.png");
+    cursor: url("../images/cursor.png"), auto;
+}
+
+/*aca comienza el header*/
+
+.header {
+    background-color: rgb(255, 255, 255);
+}
+
+.logo, .nav, .desp {
+    height: 60px;
+}
+
+.logo {
+    position: relative;
+    z-index: 10;
+}
+
+.logo.animate__animated {
+    animation-duration: 8s;
+    animation-fill-mode: both;
+}
+
+.logo-bounce {
+    animation-name: bounceIn;
+}
+
+.logo-fade {
+    animation-name: fadeIn;
+}
+
+/*configuracion general de los carruseles*/
+
+:root {
+    --main-color: rgb(46, 150, 150);
+    --white-color: rgb(255, 255, 255);
+    --black-color: rgb(0, 0, 0);
+ }
+ 
+
+.brief, .rs, .disenotitulo, .brieftitulo, .disenowebtitulo, .sobre {
+    color: var(--main-color);
+}
+
+/*aca comienza la galeria del brief*/
+
+.cabeza {
+    margin-top: 60px;
+}
+
+.cajauno {
+    background-color: rgb(0, 0, 0);
+}
+
+.cajaunouno {
+    background-color: rgb(0, 0, 0);
+}
+
+.brief {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 30px;
+}
+
+.text {
+    color: rgb(255, 255, 255);
+    margin: 30px;
+    text-align: center;
+}
+
+.about-txt {
+    color: rgb(255, 255, 255);
+    flex-basis: 100%;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.parrafo {
+    margin: 30px;
+}
+
+.ejemplos {
+    margin: 30px;
+    text-align: center;
+}
+
+/*aca comienza la galeria de diseño gráfico*/
+
+.cajados {
+    background-color: rgb(255, 255, 255);
+    height: 570px;
+}
+
+.cajadosdos {
+    background-color: rgb(255, 255, 255);
+}
+
+.boton {
+    background-color: rgba(0, 0, 0, 0.219);
+}
+
+.disenotitulo {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 20px;
+}
+
+.textdos {
+    color: rgb(0, 0, 0);
+    margin: 30px;
+    text-align: center;
+}
+
+.about-txt-dg {
+    color: rgb(0, 0, 0);
+    flex-basis: 100%;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.parrafodos {
+    margin: 30px;
+}
+
+.ejemplosf {
+    margin: 30px;
+    text-align: center;
+}
+
+/*aca comienza la galeria de diseño web*/
+
+.cajatres {
+    padding: 15px;
+    background-color: black;
+}
+
+.cajatrestres {
+    background-color: black;
+}
+
+.disenowebtitulo {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 20px;
+}
+
+.texttres {
+    color: rgb(255, 255, 255);
+    margin: 30px;
+    text-align: center;
+}
+
+.about-txt-dw {
+    color: rgb(255, 255, 255);
+    flex-basis: 100%;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.parrafotres {
+    margin: 30px;
+}
+
+.ejemplosdw {
+    margin: 30px;
+    text-align: center;
+}
+
+/*aca comienza la galeria de fotografia*/
+
+.cajacuatro {
+    background-color: rgb(255, 255, 255);
+}
+
+.cajaf {
+    background-color: rgb(255, 255, 255);
+    height: 640px;
+}
+
+.brieftitulo {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 20px;
+}
+
+.textcuatro {
+    color: rgb(0, 0, 0);
+    margin: 30px;
+    text-align: center;
+}
+
+.about-txt-brief {
+    color: rgb(0, 0, 0);
+    flex-basis: 100%;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.parrafocuatro {
+    margin: 30px;
+}
+
+.nuestrobrief {
+    margin: 30px;
+    text-align: center;
+}
+
+/*aca comienzan las skills*/
+
+.cajacinco {
+    background-color: rgb(0, 0, 0);
+    height: auto;
+    padding: 10px;
+}
+
+.skills {
+    padding: auto;
+    height: 40px;
+    background-color: black;
+    color: rgb(46, 150, 150);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/*aca comienza el footer*/
+
+.footer {
+    padding: 0;
+    background-color: rgb(0, 0, 0);
+}
+
+.rs {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.cajaimagenes {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 60px;
+}
+
+/*aca comienza la seccion sobre mi*/
+
+.sobre {
+    background-color: black;
+    height: 80px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.cajaseis {
+    background-color: rgb(255, 255, 255);
+    height: auto;
+}
+
+.sobremi {
+    text-align: justify;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif, bold;
+}
+
+.parrafocinco {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+.michael {
+    background-color: black;
+}
+
+.fotom {
+    border-radius: 3%;
+    margin: 10px;
+}
+
+@media screen and (max-width:1160px) {
+    .navbar {
+        display: none !important;
+    }
+}
