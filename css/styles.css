@@ -245,14 +245,19 @@ body {
 /*aca comienza la seccion sobre mi*/
 
 .sobre {
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     height: 80px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.cajalogo {
+    background-color: rgb(255, 255, 255);
 }
 
 .cajaseis {
     background-color: rgb(255, 255, 255);
     height: auto;
+    padding-top: 60px;
 }
 
 .sobremi {
@@ -340,4 +345,25 @@ body {
     to {
         transform: translateX(0);
     }
+}
+
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+}
+
+@keyframes blink {
+    50% { border-color: transparent; }
+}
+
+.animate__typewriter {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2rem;
+    border-right: 100% solid rgb(39, 39, 39); /* El cursor de escritura */
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 8s steps(40, end), blink 0.75s step-end infinite;
+    display: flex;
+    justify-content: center;
 }
