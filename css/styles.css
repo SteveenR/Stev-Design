@@ -207,6 +207,24 @@ body {
     text-align: center;
 }
 
+/*certificación*/
+
+.certificacion {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+
+.titulocertificacion {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(46, 150, 150);
+    height: 60px;
+}
+
 /*aca comienzan las skills*/
 
 .cajacinco {
